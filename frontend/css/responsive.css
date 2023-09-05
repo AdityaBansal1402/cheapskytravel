@@ -1,0 +1,654 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 1024px) {
+	.offset1 {
+    margin-left: 23px;
+}
+.tabcontent {
+  
+    width: 60%;
+   
+}
+	.hd-tag-st {
+
+    display: none;
+}
+.head-top .offer-hd {
+    display: none;
+}
+	
+	}
+	
+@media (max-width: 960px) {	
+    .cnt223 {
+    min-width: 86%;
+    width: 17%;
+    /* min-height: 150px; */
+    margin: 41px auto;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 103;
+    /* padding: 15px 35px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #000;
+}
+.popup .support-img {
+    display: none;
+}
+    .pop-form .modal-dialog {
+        width: 88%;
+        /* margin-top: 166px; */
+        margin: 0 auto;
+        margin-top: 166px;
+    }
+.nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 33px;
+    padding-left: 33px;
+  
+}
+.tab-content > .tab-pane .destination-sec > .left-box-sec > ul li {
+    width: 46%;
+    
+}
+
+.tab-content > .tab-pane .destination-sec > .right-box-sec h2 {
+   
+    font-size: 21px;
+    padding: 23px 32px;
+}
+.bestprice-sec {
+    width: 47%;     margin-left: 0;
+  
+    border-right: none;
+}
+	
+.tab-content > .tab-pane .tab-in ul li {
+    width: 98%;
+}
+
+div.tab {
+  
+    width: 31%;
+}
+
+.tabcontent {
+
+    width: 50%;
+   
+}
+
+.tabcontent ul {
+
+    width: 42%;
+    
+}
+
+footer .visa {
+    width: 47%;
+ 
+}
+
+footer .credits {
+    width: 42%;
+    
+}
+
+.beat-deal-show .deal-show-in {
+    width: 100%;
+    text-align: center;
+    padding: 27px 0px;
+}
+
+.beat-deal-show .deal-show-in .block-sh {
+    width: 32%;
+    /* float: left; */
+  
+}
+
+.beat-deal-show .deal-show-in .block-sh .dtl-set {
+  
+    margin-left: 12px;
+}
+
+.beat-deal-show .deal-show-in .block-sh .dtl-set h3 {
+  
+    font-size: 17px;
+   
+}
+
+.beat-deal-show .deal-show-in .block-sh .dtl-set p {
+
+    font-size: 12px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+.right-call {
+    display:none;
+}
+.head-top .head-mid .navbar-collapse {
+ width: 200px;
+    right: 0px;
+    top: 51px;
+    box-shadow: 3px 3px 3px #ccc; 
+}
+.head-top .head-mid .logo {
+    width: 19%;
+}
+.head-top .head-mid .navbar {
+    width: 9%;
+    float: right;
+}
+
+}	
+@media (max-width: 667px) {
+
+
+.airline-ticket .airline-ticket-in ul li {
+        float: left;
+    line-height: 23px;
+    margin-right: 0px;
+    width: 50%;
+    font-size: 12px;
+}
+
+
+.contact-sec .left-sec {
+    width: 100%;
+   
+}
+
+.contact-sec .right-sec {
+    width: 100%;
+    
+}
+.contact-sec .right-sec .int-sec {
+   
+    width: 92%;
+}
+
+.side-box {
+    width: 92%;
+    
+    margin-left: 0px;
+    margin: 21px 0px;
+}
+#header-wrapper {
+   padding-top: 0;
+   min-height: 536px;
+}
+
+.tab-content > .tab-pane .tab-in ul li {
+    width: 92%;
+    padding: 0px 2%;
+}
+.tab-content > .tab-pane .tab-in ul li .flight-in {
+   padding: 6px 0px;
+   width: 100%;
+}
+
+	.tab-content > .tab-pane .destination-sec > .left-box-sec {
+    width: 100%;
+    
+}
+
+.tab-content > .tab-pane .destination-sec > .right-box-sec {
+    width: 100%;
+   
+}
+	
+	.quick-links ul {
+    width: 100%;
+    /* text-align: center; */
+}
+	
+	.quick-links ul li {
+    border-right: none;
+    margin: 2px 0px;
+    float: none;
+}
+	
+	.navbar-inner h1.brand {
+      margin-left: 20px;
+    width: 18%;
+    margin-top: 7px;
+}
+
+.nav-head h2 {
+
+    font-size: 30px;
+   
+}
+
+.nav-pills > li > a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+   
+   
+    font-size: 14px;
+    
+}
+
+
+
+
+.nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+ 
+}
+
+.nav-pills > .active:after {
+   
+    border-width: 10px;
+}
+
+.nav-pills > .active:after {
+   top: 28px;
+   right: 21px;
+}
+
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-price {
+    width: 24%;
+   
+    margin-right: 26px;
+}
+
+.tab-content > .tab-pane .destination-sec > .left-box-sec > ul li {
+    width: 48%;
+
+}
+
+.tab-content > .tab-pane .destination-sec > .right-box-sec ul li a:before {
+        font-family: FontAwesome;
+   
+    color: #ca0000;
+    position: relative;
+    left: -16px;
+    font-size: 12px;
+}
+
+div.tab {
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.tabcontent {
+    padding: 0px 0px;
+    width: 100%;
+    border-left: none;
+    margin: 10px 0px;
+}
+
+.tabcontent ul {
+   width: 100%;
+   margin-left: 15px;
+}
+
+footer ul.social-networks {
+   
+    width: 100%;
+    
+    text-align: center;
+}
+
+footer .visa {
+    width: 100%;
+   
+}
+
+footer .credits {
+    width: 100%;
+   
+    text-align: center;
+}
+
+.bestprice-sec {
+    width: 49%;
+    float: left;
+    border-right:none;
+}
+
+.text-left {
+    text-align: center;
+}
+.text-right{
+    text-align: center;
+}
+
+.from-desti .side1 {
+    width: 93%;
+   
+}
+
+.from-desti .side2 {
+    width: 93%;
+    float: left;
+}
+
+.tabcontent ul li {
+    margin-right: 13px;
+}
+.tabcontent ul li a {
+    font-size: 10px;
+}
+
+
+.beat-deal-show .deal-show-in .block-sh {
+    width: 97%;
+    margin-left: 7px;
+}
+
+.beat-deal-show .deal-show-in .block-sh .im-set {
+    float: left;
+    width: 13%;
+}
+
+.beat-deal-show .deal-show-in .block-sh .dtl-set {
+    float: left;
+    width: 73%;
+    padding: 12px 0px;
+    margin-left: 26px;
+}
+
+.round-cover .nav-pills li {
+    margin-right: 11px;
+    margin-bottom: 13px;
+    width: 28%;
+}
+
+.round-cover .nav-pills li a {
+    padding: 7px 27px;
+    font-size: 13px;
+    display: block;
+}
+
+
+.ftco-animate {
+    width: 100%;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    float: left;
+}
+
+
+.call-tag {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    left: 0px;
+    display: block;
+    /* background-color: #ff0101; */
+    text-align: center;
+    /* padding: 0px 0px; */
+    /* background-image: linear-gradient(to right, #040a32 , #090e36); */
+    background: linear-gradient(to bottom left, #011d3e 0%, #072955 100%);
+    }
+
+    .call-tag a{display: block;font-size: 25px;padding: 11px 0px;color: #ffffff;font-weight: 500;text-decoration: none;}
+     .call-tag a:before{
+    content:"";
+    background: url(../img/pho.gif) no-repeat;
+    width: 56px;
+    height: 61px;
+    background-size: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    display: none;
+    }
+
+    .call-tag a i{
+    	color: #FFEB3B;
+    	font-size: 30px;
+    	margin-right: 7px;
+    }
+    .content-sec {
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 22px;
+ 
+}
+.footer-set .right-contact span {
+
+    width: 81%;
+}
+.head-top .head-mid {
+    display: inline-block;
+    padding: 0px 23px;
+    width: 100%;
+}
+
+.head-top .head-mid .navbar .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    float: right;
+    position: absolute;
+    right: -15px;
+    top: 9px;
+}
+.head-top .head-mid .navbar {
+  
+overflow: inherit;
+}
+	}
+
+
+@media (max-width: 480px) {
+    .header-top { display:none;}
+    
+  .head-top .head-mid .logo {
+    float: left;
+    width: 26%;
+    margin-top: 7px;
+}
+
+.head-top .logo img {  margin-top: 0; }
+
+.right-call span:before {
+    font-family: FontAwesome;
+    /* content: "\f095"; */
+    /* background: none repeat scroll 0 0 #ff9000; */
+    /* border-radius: 30px; */
+    color: #131b92;
+    margin-right: 5px;
+    padding: 8px 11px;
+    position: absolute;
+    top: -6px;
+    left: 3px;
+    font-size: 16px;
+}
+
+.airline-ticket .airline-ticket-in ul li {
+        float: left;
+    line-height: 23px;
+    margin-right: 0px;
+    width: 50%;
+    font-size: 12px;
+}
+	
+	.bestprice-sec {
+    width: 100%;
+  
+    border-right: none;
+}
+
+.right-call a {
+    font-size: 13px;
+    /* padding-top: 12px; */
+    display: inline-block;
+    padding-left: 18px;
+}
+
+
+.tab-content > .tab-pane .destination-sec > .left-box-sec > ul li {
+    width: 100%;
+   
+}
+	
+.our-partners ul li {
+    width: 31%;
+    padding: 10px 6px;
+}
+
+
+.flight-from {
+    display: block;
+}
+.flight-from .col-left {
+    width: 100%;
+}
+	
+.navbar-inner h1.brand {
+    width: 100%;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 0;
+   
+}
+
+.navbar-inner h1.brand img{
+    width: 44%;
+   }
+
+
+.nav-head h2 {
+    font-size: 23px;
+}
+
+.tab-content > .tab-pane .destination-sec > .right-box-sec h2 {
+    padding: 12px 32px;
+}
+
+.right-call {
+       float: right;
+       padding: 3px 0px;
+       text-align: center;
+       width: 57%;
+       margin-bottom: 0px;
+       margin: 0;
+       display: none;
+       /* margin-right: 55px; */
+}
+.right-call span {
+    font-size: 14px;
+    padding: 2px 1px 5px;
+}
+
+
+	
+.right-call p {
+    font-size: 16px;
+   
+}
+
+.nav-pills > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 10px;
+    
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+        padding-right: 11px;
+    padding-left: 11px;
+    
+}
+
+.nav-pills > .active:after {
+   
+    border-width: 7px;
+}
+.nav-pills > .active:after {
+  top: 29px;
+  right: 7px;
+}
+
+
+
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-text h6 {
+    font-size: 10px;
+   
+}
+
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-text h5 {
+    font-size: 15px;
+  
+}
+
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-text .dates {
+    font-size: 9px;
+ 
+}
+
+	.tab-content > .tab-pane .tab-in ul li .flight-in .flight-text {
+    width: 46%;
+    
+}
+
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-price {
+    width: 29%;
+   
+    margin-right: 11px;
+}
+.tab-content > .tab-pane .tab-in ul li .flight-in .flight-price p {
+    font-size: 24px;
+    
+}
+
+section.section h4 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #102b50;
+}
+.tab-content > .tab-pane .destination-sec > .right-box-sec ul li a:before {
+        font-family: FontAwesome;
+    
+    color: #ca0000;
+    position: relative;
+    left: -16px;
+    font-size: 12px;
+}
+
+
+.from-desti ul li a {
+padding: 15px 9px;
+font-size: 11px;
+}
+
+.from-desti ul li span {
+padding: 2px 17px;
+margin-right: 10px;
+}
+
+.from-desti ul li span:after {
+    padding: 2px 11px;
+    margin-left: 5px;
+}
+
+.from-desti ul li span p {
+    font-size: 12px;
+}
+
+.service-block .show-block {
+    margin-bottom: 16px;
+}
+
+.best-secure .show-box {
+    margin-bottom: 10px;
+}
+
+
+    }
+
+   
+

@@ -1,0 +1,98 @@
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore dependencies
+/node_modules/
+/vendor/
+
+# Ignore build artifacts
+/build/
+/dist/
+/public/assets/
+
+# Ignore sensitive information
+.env
+.env.*
+application/config/config.php
+
+# Ignore logs and caches
+/logs/
+/cache/
+
+# Ignore uploaded files and user-generated content
+/uploads/
+
+# Ignore generated code or compiled files
+*.log
+*.pot
+*.mo
+*.po
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Ignore deployment-specific files
+/deploy/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.vim
+*.emacs
+*.sublime-workspace
+
+# Ignore temporary files and backups
+*~
+*.bak
+*.tmp
+
+# Ignore database files
+*.db
+*.sqlite
+*.sql
+
+# Ignore compiled assets or build output
+/dist/
+/build/
+/public/build/
+
+# Ignore logs and debugging output
+/log/
+/debug/
+
+# Ignore environment-specific configuration files
+/config/*.env
+
+# Ignore generated documentation
+/docs/
+
+# Ignore package lock files (specific to your package manager)
+package-lock.json
+yarn.lock
+composer.lock
+
+# Ignore any other files or directories specific to your CI web app
+
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+.ftp*
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+database.php
+application/session/*
+application/config/*
+application/config/database.php
+WRITEPATH*

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit>
+    <testsuites bootstrap='test/bootstrap.php'>
+        <testsuite name="SiteMap Test Suite">
+            <directory>test</directory>
+            <file>sitemaptests.php</file> <!-- Add your test file here -->
+        </testsuite>
+    </testsuites>
+</phpunit>

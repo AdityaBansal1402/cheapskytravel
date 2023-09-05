@@ -1,0 +1,26 @@
+/*API STRUCTURE CUSTOMIZE*/
+
+
+.column, .column1, .column3 {font-size:16px;margin-right: 16px; cursor:pointer;}
+
+
+
+
+@media screen and (max-width:768px){
+.column, .column1, .column3 {margin-right: 0px;font-size:13px;}
+.search-box1 h3 {padding: 16px 15px 0;}
+.column input[type="radio"], input[type="checkbox"], .column1 input[type="radio"], input[type="checkbox"], .column3 input[type="radio"], input[type="checkbox"] {transform: scale(1);}
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
