@@ -32,7 +32,7 @@
      <img src="assets/images/envelope.png" alt="">
 	 <span>
 	 <b>Email Us:</b><div class="clearfix"></div>
-	 <h5><a href="mailto:info@tourcruiser.com"> info@tourcruiser.com</a></h5><div class="clearfix"></div>
+	 <h5><a href="mailto:info@tourcruiser.com"> info@Cheapskytravel.com</a></h5><div class="clearfix"></div>
 	 
    </span>
 </div>
