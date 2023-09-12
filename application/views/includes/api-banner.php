@@ -25,7 +25,7 @@
                 .card {
                     position: relative;
                     border: none;
-                    background: rgba(36, 50, 87, 80%);
+                    background: rgba(249, 37, 58, 80%);
 
                     color: white;
                     height: 5rem;

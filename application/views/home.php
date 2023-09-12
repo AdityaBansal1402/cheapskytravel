@@ -1,11 +1,11 @@
 <script>
-document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - Cheapskytravel";
+document.title = "Fast and Cheap Fares at Cheapskytravel";
 document.getElementsByTagName('meta')["keywords"].content = "Flight Reservation USA,";
 document.getElementsByTagName('meta')["description"].content =
     "Get Our Low Cost Flight Tickets on Cheapskytravel. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Cheapskytravel. Book Now! For Booking Call @ <?= TFN ?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
-    style="background-image: url('frontend/images/bg.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
+    style="background-image: url('frontend/images/bg.png'); background-position: bottom; background-size: cover;">
     <?php include 'includes/api-banner.php'; ?>
 </div>
 <div class="whysky mb-4">

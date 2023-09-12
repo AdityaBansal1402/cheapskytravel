@@ -29,7 +29,7 @@ max-width:62%;text-align: center;}
 
 .wrap-inpg {position: relative;}
 .wrap-inpg:before {content: "";top: 0;left: 0;bottom: 0;right: 0;position: absolute;background-color: rgb(63 81 181 / 37%);
-    background: linear-gradient(180deg, rgb(6 204 254 / 0%) 0%, #003aa5b0 100%);}
+    background: linear-gradient(180deg, rgb(6 204 254 / 0%) 0%, #ff712d 100%);}
 .api-banner-section {position: relative;}
 .whychoose-us {background:#fff;color:#000;box-shadow: 0 0 4px #ddd;}
 .whychoose-us svg {float: left; margin-right:16px;
@@ -1205,7 +1205,7 @@ li.wssearchbar.clearfix {
 .pat{position:relative; z-index:2;}
 .bgc{position:relative;z-index:2;}
 .bgc:before{content: "";position: absolute; z-index:-1;
-top:0px;right:0px;bottom:0px;left:0px;background:rgb(3 82 115);}
+top:0px;right:0px;bottom:0px;left:0px;background: #ff712d;}
 
 .best-dealx .close {
     position: absolute;

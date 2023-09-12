@@ -3,7 +3,7 @@
       <li class="nav-item">
          <button type="button" class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
             role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-plane" aria-hidden="true"></i>
-         Flight</button>
+            Flight</button>
       </li>
    </ul>
    <div class="tab-content" id="myTabContent">
@@ -34,16 +34,13 @@
                            <label>Flying From</label>
                            <input placeholder="Departing from?" class="large" required="" value="" type="text"
                               id="flight-from"
-                              style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
-                              />
+                              style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;" />
                            <input type="hidden" value="LAX" name="depart" id="flight-from2" />
                         </div>
                         <div class="element-input">
                            <label>Flying To</label>
-                           <input placeholder="Going to?" value="" required="" class="large" type="text"
-                              id="flight-to"
-                              style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
-                             />
+                           <input placeholder="Going to?" value="" required="" class="large" type="text" id="flight-to"
+                              style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;" />
                            <input type="hidden" value="MIA" name="arrival" id="flight-to2" />
                         </div>
                      </div>
@@ -56,8 +53,8 @@
                      <div class="element-date">
                         <label for="">Returning</label>
                         <input id="checkout" required="" placeholder="Return"
-                           value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +2 days")); ?>"
-                           class="large-date" type="text" name="returnOn"
+                           value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +2 days")); ?>" class="large-date"
+                           type="text" name="returnOn"
                            style="background:url(<?= base_url("frontend") ?>/img/cal2.png) #fff no-repeat right;   cursor: pointer;" />
                      </div>
                   </div>
@@ -73,8 +70,7 @@
                      </div>
                      <div class="element-input">
                         <label>Flying To</label>
-                        <input placeholder="Destination" value="" class="large" type="text"
-                           id="flight-to-multi1"
+                        <input placeholder="Destination" value="" class="large" type="text" id="flight-to-multi1"
                            style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
                            onclick="if (this.value != '') {
                            this.value = ''
@@ -84,16 +80,15 @@
                      <div class="element-date">
                         <label for="">Departing</label>
                         <input id="checkin-multi1" placeholder="Depart"
-                           value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +3 days")); ?>"
-                           class="large-date" type="text" name="departOn[]]"
+                           value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +3 days")); ?>" class="large-date"
+                           type="text" name="departOn[]]"
                            style="background:url(<?= base_url("frontend") ?>/img/cal2.png) #fff no-repeat right;   cursor: pointer;" />
                      </div>
                      <div class="clearfix"></div>
                      <div id="repeat-from-here1">
                         <div class="element-input">
                            <label>Flying From</label>
-                           <input placeholder="Origin" class="large" value="" type="text"
-                              id="flight-from-multi2"
+                           <input placeholder="Origin" class="large" value="" type="text" id="flight-from-multi2"
                               style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
                               onclick="if (this.value != '') {
                               this.value = ''
@@ -103,8 +98,7 @@
                         </div>
                         <div class="element-input">
                            <label>Flying To</label>
-                           <input placeholder="Destination" value="" class="large" type="text"
-                              id="flight-to-multi2"
+                           <input placeholder="Destination" value="" class="large" type="text" id="flight-to-multi2"
                               style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
                               onclick="if (this.value != '') {
                               this.value = ''
@@ -114,21 +108,19 @@
                         <div class="element-date">
                            <label for="">Departing</label>
                            <input id="checkin-multi2" placeholder="Depart"
-                              value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +5 days")); ?>"
-                              class="large-date" type="text" name="departOn[]"
+                              value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +5 days")); ?>" class="large-date"
+                              type="text" name="departOn[]"
                               style="background:url(<?= base_url("frontend") ?>/img/cal2.png) #fff no-repeat right;   cursor: pointer;" />
                         </div>
                         <br>
-                        <a class="addMore" href="javascript:;"
-                           onclick="$('#repeat-from-here2').show();$(this).hide()"> <i class="fa fa-plus"
-                           aria-hidden="true"></i> </a>
+                        <a class="addMore" href="javascript:;" onclick="$('#repeat-from-here2').show();$(this).hide()">
+                           <i class="fa fa-plus" aria-hidden="true"></i> </a>
                      </div>
                      <div class="clearfix"></div>
                      <div style="display: none" id="repeat-from-here2">
                         <div class="element-input">
                            <label>Flying From</label>
-                           <input placeholder="Origin" class="large" value="" type="text"
-                              id="flight-from-multi3"
+                           <input placeholder="Origin" class="large" value="" type="text" id="flight-from-multi3"
                               style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
                               onclick="if (this.value != '') {
                               this.value = ''
@@ -137,8 +129,7 @@
                         </div>
                         <div class="element-input">
                            <label>Flying To</label>
-                           <input placeholder="Destination" value="" class="large" type="text"
-                              id="flight-to-multi3"
+                           <input placeholder="Destination" value="" class="large" type="text" id="flight-to-multi3"
                               style="background: url(<?= base_url("frontend") ?>/img/loca.png) #fff no-repeat left;"
                               onclick="if (this.value != '') {
                               this.value = ''
@@ -148,22 +139,22 @@
                         <div class="element-date">
                            <label for="">Departing</label>
                            <input id="checkin-multi3" placeholder="Depart"
-                              value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +9 days")); ?>"
-                              class="large-date" type="text" name="departOn[]"
+                              value="<?= date('Y-m-d', strtotime(date("Y-m-d") . " +9 days")); ?>" class="large-date"
+                              type="text" name="departOn[]"
                               style="background:url(<?= base_url("frontend") ?>/img/cal2.png) #fff no-repeat right;   cursor: pointer;" />
                         </div>
                         <br>
                         <a class="addMore" href="javascript:;"
-                           onclick="$('#repeat-from-here2').hide();$('.addMore').show()"> <i
-                           class="fa fa-times" aria-hidden="true"></i> </a>
+                           onclick="$('#repeat-from-here2').hide();$('.addMore').show()"> <i class="fa fa-times"
+                              aria-hidden="true"></i> </a>
                      </div>
                      <div class="clearfix"></div>
                   </div>
                   <div class="element-adult">
                      <label>Passenger</label>
                      <input required="" readonly="" value="1" placeholder="Select"
-                        onclick="$(this).next('ul').toggle();" class="large-date" autocomplete="off" type="text"
-                        name="" id="passenger"
+                        onclick="$(this).next('ul').toggle();" class="large-date" autocomplete="off" type="text" name=""
+                        id="passenger"
                         style="background:url(<?= base_url("frontend") ?>/img/dd.png) #fff no-repeat right;" />
                      <ul class="ulPassenger">
                         <li>
@@ -213,8 +204,8 @@
                   </div>
                   <div class="clearfix"></div>
                   <div class="element-search text-center">
-                     <button name="submit" id="submit" value="Search Flight" type="submit"
-                        class="search-button">BOOK NOW</button>
+                     <button name="submit" id="submit" value="Search Flight" type="submit" class="search-button">BOOK
+                        NOW</button>
                   </div>
                </div>
             </form>
